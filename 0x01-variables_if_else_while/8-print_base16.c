@@ -1,4 +1,3 @@
-julien@ubuntu:~/c/0x00$ cat main.c 
 #include <stdio.h>
 
 /**
@@ -8,12 +7,17 @@ julien@ubuntu:~/c/0x00$ cat main.c
  */
 int main(void)
 {
-	int s = 48;
-	int r = 97;
+	int s;
+	int r;
 
-	while ( s <= 57 || n <= 102)
+	for (s = 48; s <= 57; s++)
 	{
 		putchar(s);
-		s++;
+	}
+	for (r = 97; r <= 102; r++)
+	{
+		putchar(r);
+	}
+	putchar('\n');
 	return (0);
 }
