@@ -1,17 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
-  * print_times_table - prints the n times table
-  * @n: the number of times the table should be printed
-  * Return: empty
-*/
-
+ * print_times_table - Prints the times table of the input
+ * @n: The value of the times table to be printed.
+ * Return: empty
+ */
 void print_times_table(int n)
 {
 	int num, mult, prod;
 
-	if (n >= 0 || n <= 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (num = 0; num <= n; num++)
 		{
