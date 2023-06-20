@@ -2,7 +2,7 @@
 
 /**
    * print_alphabet -prints the alphabet in lower case
-   * 
+   *
    *Return: Always 0 (success)
 */
 
@@ -13,7 +13,6 @@ void print_alphabet(void)
 	for (i = 97; i <= 122; i++)
 	{
 		_putchar(i);
-
 	}
 	_putchar('\n');
 }
