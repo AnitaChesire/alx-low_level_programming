@@ -3,8 +3,8 @@
 /**
   * print_numbers - prints digits from 0 to 9
   * followed by a new line
-  * Return: empty 
-*/
+  * Return: empty
+ */
 
 void print_numbers(void)
 {
