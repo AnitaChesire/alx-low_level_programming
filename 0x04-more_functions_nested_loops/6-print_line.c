@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * print_line - draw a line 
+  * print_line - draw a line
   * @n: number of times
   * Return: empty
 */
