@@ -26,18 +26,18 @@ int main(int argc, char *argv[])
 		{
 			if (e[k] < 48 || e[k] > 57)
 			{
-				printf("Error \n");
+				printf("Error\n");
 				return (1);
 			}
 		}
 		sum += atoi(e);
 		e++;
 	}
-	printf("%d \n", sum);
+	printf("%d\n", sum);
 	}
 	else
 	{
-		printf("0 \n");
+		printf("0\n");
 	}
 	return (0);
 }
