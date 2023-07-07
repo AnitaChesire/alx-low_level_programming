@@ -8,11 +8,10 @@
   * Return: succes
 */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i = 0;
+	printf("%s\n", *argv);
 
-	if (argc >= 1)
-		printf("%s \n", argv[i]);
 	return (0);
 }
+
