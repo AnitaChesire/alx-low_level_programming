@@ -16,7 +16,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
  */
 int len(char *str)
 {
-	int l= 0;
+	int l = 0;
 
 	while (*str++)
 		l++;
