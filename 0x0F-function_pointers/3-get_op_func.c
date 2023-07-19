@@ -4,8 +4,8 @@
 
 /**
  * op_add - returns the sum of a and b.
- * @a: an input integer
- * @b: an input integer
+ * @a: an input
+ * @b: an input
  * Return: The result of a + b.
  */
 int op_add(int a, int b)
@@ -15,8 +15,8 @@ int op_add(int a, int b)
 
 /**
  * op_sub - subtract of a and b.
- * @a: an input integer
- * @b: an input integer
+ * @a: an input
+ * @b: an input
  * Return: substract a - b.
  */
 int op_sub(int a, int b)
