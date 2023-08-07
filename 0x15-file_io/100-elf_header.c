@@ -7,14 +7,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-
-void check_elf(unsigned char *e_ident);
-void print_magic(unsigned char *e_ident);
-void print_class(unsigned char *e_ident);
-void print_data(unsigned char *e_ident);
-void print_version(unsigned char *e_ident);
-
-
 /**
  * check_elf - Checks for an ELF file.
  * @e_ident: pointer to array with the ELF magic numbers.

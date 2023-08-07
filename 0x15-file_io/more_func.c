@@ -7,12 +7,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-void print_abi(unsigned char *e_ident);
-void print_osabi(unsigned char *e_ident);
-void print_type(unsigned int e_type, unsigned char *e_ident);
-void print_entry(unsigned long int e_entry, unsigned char *e_ident);
-void close_elf(int elf);
-
 /**
   * print_abi - Print ABI of ELF header.
   * @e_ident: pointer to array with the ELF ABI vers
